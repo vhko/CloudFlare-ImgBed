@@ -92,7 +92,7 @@ export async function getUploadConfig(db, env) {
     const cfr2 = {}
     const cfr2Channels = []
     cfr2.channels = cfr2Channels
-    if (env.img_r1) {
+    if (env.img_r2) {
         cfr2Channels.push({
             id: 1,
             name: 'Cloudflare R2_env',
